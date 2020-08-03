@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+	<style type="text/css">
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font: tahoma;
+	background-color: 	white;
+}
+
+#contact-box {
+	width: 800px;
+	background-color:	#efefef;
+	box-shadow: 0 0 5px 0 #999;
+	margin-top: 10%;
+	margin-left: 20%;
+    position: absolute;	
+    border-radius: 5px;
+}
+
+form {
+	margin: 35px;
+}
+
+.name {
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding: 5px;
+	padding-bottom: 0px;
+}
+
+.input-field{
+	width: 700px;
+	height: 40px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	outline: none;	
+}
+
+.textarea-field {
+	height: 150px;
+	padding-top: 10px;
+}
+
+.select-field {
+    width: 725px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	outline: none;
+	font-weight: bold;
+}
+
+.btn {
+	color: #fff;
+	margin-top: 18px;
+	padding: 10px;
+	background-color: #47c35a;
+	font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div id="contact-box">
+	<form>	<h4 class="name">First Name</h4>
+		<input type="text"  class="input-field" placeholder="Your name..">
+		<h4 class="name">Last Name</h4>
+			<input type="text" class="input-field" placeholder="Your last name..">
+		<h4 class="name">Country</h4>
+		<select name="Country" class="select-field">
+			<option selected="selected">Australia</option>	
+            <option>Austria</option>
+            <option>Benin</option>
+            <option>Denmark</option>
+			<option>Germany</option>
+            <option>Ghana</option>
+            <option>Hungary</option>
+            <option>Iceland</option>
+            <option>Japan</option>
+            <option>Kenya</option>
+            <option>Morocco</option>
+            <option>Nigeria</option>
+            <option>Rwanda</option>
+			<option>Togo</option>
+			<option>United States</option>
+		</select>
+        <h4 class="name">Subject</h4>
+			<textarea rows="4" cols="50" placeholder="Write something.." class="input-field textarea-field">				
+			</textarea> 
+						
+	    <button class="btn" type="button">Submit</button>
+    </form>
+	</div>
+</body>
+</html>
